@@ -1,0 +1,36 @@
+# Установите автоматическое определение для всех текстовых файлов
+* text=auto
+
+# Явно укажите, что файлы скриптов C# должны использовать LF
+*.cs text eol=lf
+
+# Для файлов, которые должны всегда использовать CRLF (например, .bat)
+*.bat text eol=crlf
+
+# Объявите файлы Unity, которые всегда должны иметь LF окончания :cite[1]
+*.unity text eol=lf
+*.asset text eol=lf
+*.anim text eol=lf
+*.prefab text eol=lf
+*.controller text eol=lf
+*.mat text eol=lf
+*.meta text eol=lf
+
+# Явно объявите бинарные файлы, которые не должны преобразовываться
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.ico binary
+*.tif binary
+*.tga binary
+*.fbx binary
+*.obj binary
+*.blend binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.aiff binary
+*.zip binary
+*.dll binary
